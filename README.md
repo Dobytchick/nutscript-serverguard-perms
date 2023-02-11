@@ -29,11 +29,3 @@ function PLUGIN:PlayerSpawnVehicle(client, model, name, data)
     serverguard.player:HasPermission(client, PLUGIN.SPAWNVEH)
 end
 ```
-
-### sh_plugin.lua
-
-```lua
-local FULL_ACCESS_RANK = 'founder'
-```
-
-This line is responsible for which rank all rights will be assigned by default. This can be either the founder or any other rank that you enter here.
