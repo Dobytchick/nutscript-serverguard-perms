@@ -1,14 +1,14 @@
 PLUGIN.name = 'Serverguard Permissions'
 PLUGIN.author = 'Dobytchick'
-PLUGIN.desc = 'Новые права для админ-системы. (спавн вендоров и др). Закрепляется за рангом игрока'
+PLUGIN.desc = 'Nutscript-permissions for serverguard'
 
 PLUGIN.PERMISSIONS = {
     -- Perms for commands.
-    CHARSETMONEY = 'Выдача денег',
-    CHARGIVEITEM = 'Выдача предметов',
-    CHARBAN = 'Чарбан',
+    CHARSETMONEY = 'Money giving',
+    CHARGIVEITEM = 'Item giving',
+    CHARBAN = 'Charban',
     -- Perms for hooks.
-    SPAWNVEH = 'Спавн транспорта',
+    SPAWNVEH = 'Vehicle spawn',
 }
 
 local FULL_ACCESS_RANK = 'founder'
