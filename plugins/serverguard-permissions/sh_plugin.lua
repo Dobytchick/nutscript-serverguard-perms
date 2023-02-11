@@ -11,12 +11,8 @@ PLUGIN.PERMISSIONS = {
     SPAWNVEH = 'Vehicle spawn',
 }
 
-local FULL_ACCESS_RANK = 'founder'
-
 for k, v in pairs(PLUGIN.PERMISSIONS) do
     serverguard.permission:Add(v)
-
-    serverguard.ranks.stored[FULL_ACCESS_RANK].data.Permissions[v] = true
 end
 
 nut.util.include('sh_commands.lua')
