@@ -1,3 +1,3 @@
 function PLUGIN:PlayerSpawnVehicle(client, model, name, data)
-    serverguard.player:HasPermission(client, PLUGIN.SPAWNVEH)
+    serverguard.player:HasPermission(client, self.PERMISSIONS.SPAWNVEH)
 end
