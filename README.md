@@ -26,6 +26,6 @@ The very last line just exists, but it can be embedded in the event.
 #### sv_perms.lua
 ```lua
 function PLUGIN:PlayerSpawnVehicle(client, model, name, data)
-    serverguard.player:HasPermission(client, PLUGIN.SPAWNVEH)
+    serverguard.player:HasPermission(client, self.PERMISSIONS.SPAWNVEH)
 end
 ```
